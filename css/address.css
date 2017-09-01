@@ -1,0 +1,33 @@
+.page {
+	height: auto;
+	width: 100%;
+}
+
+/*content*/
+.content {
+	height: auto;
+	width: 100%;
+	padding-bottom: 100px;
+}
+.address {
+	height: auto;
+	width: 100%;
+}
+.address img {
+	height: auto;
+	width: 830px;
+	margin: 0 auto;
+	display: block;
+}
+.address_desc {
+	position: relative;
+	height: auto;
+	width: 700px;
+	left: 50%;
+	margin-left: -350px;
+	color: #252525;
+	font-size: 22px;
+	line-height: 62px;
+	margin-top: 140px;
+	padding-left: 120px;
+}

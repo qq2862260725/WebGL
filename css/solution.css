@@ -1,0 +1,96 @@
+.page {
+	height: auto;
+	width: 100%;
+}
+
+/*content*/
+.content {
+	height: auto;
+	width: 100%;
+	padding-bottom: 100px;
+}
+.solves {
+	height: auto;
+	width: 100%;
+	zoom: 1;
+	overflow: hidden;
+	z-index: 1;
+}
+.single_sovel {
+	height: 380px;
+	width: 520px;
+	float: left;
+	margin-left: 38px;
+	margin-bottom: 30px;
+}
+.solve_left {
+	height: 100%;
+	width: 240px;
+	padding: 30px 32px;
+	text-align: center;
+}
+.circle {
+	height: 174px;
+	width: 174px;
+	border-radius: 50%;
+	text-align: center;
+	border: 1px solid #a1a1a1;
+}
+.unique {
+	background-color: #f90201;
+}
+.circle img {
+	height: 70px;
+	width: auto;
+	margin-top: 52px;
+}
+.line {
+	position: relative;
+	height: 3px;
+	width: 130px;
+	left: 50%;
+	margin-left: -65px;
+	margin-top: 45px;
+	background-color: #979797;
+}
+.solve_left h2 {
+	color: #222222;
+	font-size: 34px;
+	line-height: 144px;
+}
+.solve_right {
+	position: relative;
+	height: 100%;
+	width: 280px;
+	padding-top: 40px;
+	padding-left: 18px;
+	display: inline-block;
+	z-index: 1;
+}
+.solve_right p {
+	color: #222222;
+	font-size: 20px;
+	line-height: 52px;
+	z-index: 1;
+}
+.solve_right p span {
+	background-color: #222222;
+	height: 14px;
+	width: 14px;
+	border-radius: 50%;
+	margin-right: 20px;
+	display: inline-block;
+}
+.solve_more {
+	position: absolute;
+	height: 40px;
+	width: 90px;
+	right: 0;
+	bottom: 10px;
+	line-height: 40px;
+	text-align: right;
+	margin-right: 5px;
+}
+.solve_more a {
+	color: #454545;
+}

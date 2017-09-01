@@ -1,0 +1,40 @@
+.page {
+	height: auto;
+	width: 100%;
+}
+
+/*contet*/
+.content {
+	height: auto;
+	width: 100%;
+	padding-bottom: 260px;
+}
+.detail_tab {
+	height: 64px;
+	width: 100%;
+	background-color: #e8e8e8;
+	border-radius: 8px;
+	overflow: hidden;
+	margin-bottom: 70px;
+}
+#tab_wrap li {
+	height: 100%;
+	width: 20%;
+	float: left;
+	text-align: center;
+	line-height: 64px;
+}
+#tab_wrap li a {
+	color: #222222;
+	font-size: 22px;
+	display: block;
+	transition: .5s;
+}
+#tab_wrap li a:hover {
+	color: #fff !important;
+	background-color: #f20706;
+}
+.li_active {
+	color: #fff !important;
+	background-color: #f20706;
+}

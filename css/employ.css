@@ -1,0 +1,82 @@
+.page {
+	height: auto;
+	width: 100%;
+}
+
+/*content*/
+.content {
+	height: auto;
+	width: 100%;
+}
+.employ_wrap {
+	height: 64px;
+	width: 100%;
+	border-radius: 8px;
+	margin-top: 25px;
+	margin-bottom: 80px;
+	border-radius: 5px;
+	overflow: hidden;
+	background-color: #e8e8e8;
+}
+#employ_tab li {
+	height: 100%;
+	width: 50%;
+	float: left;
+	color: #3d3d3d;
+	font-size: 22px;
+	text-align: center;
+	line-height: 64px;
+	transition: .5s;
+}
+#employ_tab li:hover {
+	color: #fff !important;
+	background-color: #f20706;
+}
+.tab_active {
+	color: #fff !important;
+	background-color: #f20706;
+}
+
+/*employ_desc*/
+.employ_desc {
+	height: auto;
+	width: 100%;
+	margin-bottom: 165px;
+}
+#employ_desc_wrap li {
+	height: auto;
+	width: 100%;
+}
+#employ_desc_wrap li table {
+	border-collapse: collapse;
+}
+#employ_desc_wrap li table tr {
+	height: auto;
+	width: 100%;
+}
+#employ_desc_wrap li table tr th ,#employ_desc_wrap li table tr td {
+	height: 90px;
+	width: 25%;
+	line-height: 90px;
+	text-align: center;
+	font-weight: normal;
+}
+#employ_desc_wrap li table tr a {
+	height: 100%;
+	width: 100%;
+	display: block;
+	border: 1px solid red;
+}
+#employ_desc_wrap li table tr td {
+	color: #222222;
+}
+#employ_desc_wrap li table tr th {
+	color: #666666;
+	background-color: #9c9b9b;
+}
+#employ_desc_wrap li table tr:nth-child(even) {  
+    background: #d8d8d8;  
+}  
+#employ_desc_wrap li table tr:nth-child(odd) {  
+    background: #c5c5c5;  
+}  

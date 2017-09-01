@@ -1,0 +1,153 @@
+.page {
+	height: auto;
+	width: 100%;
+}
+
+/*content*/
+.content {
+	height: auto;
+	width: 100%;
+	padding-bottom: 160px;
+}
+.desc {
+	height: auto;
+	width: 100%;
+}
+.desc img {
+	height: auto;
+	width: 100%;
+}
+.company_wrap {
+	height: auto;
+	width: 1145px;
+	margin: 0 auto;
+}
+.single_item {
+	height: auto;
+	width: 100%;
+}
+.item_title {
+	position: relative;
+	height: 120px;
+	width: 100%;
+	text-align: center;
+}
+.item_title h4 {
+	color: #222222;
+	font-size: 40px;
+	line-height: 120px;
+}
+.more {
+	position: absolute;
+	width: auto;
+	height: 24px;
+	right: 0;
+	top: 48px;
+}
+.more a {
+	color: #222222;
+	font-size: 17px;
+	line-height: 24px;
+}
+.more a img {
+	height: 22px;
+	width: 22px;
+	margin-top: 1px;
+	margin-right: 12px;
+	vertical-align: top;
+}
+.news {
+	height: auto;
+	width: 100%;
+}
+.new {
+	height: 300px;
+	width: 533px;
+}
+.top {
+	margin-bottom: 50px;
+}
+.goods {
+	height: auto;
+	width: 100%;
+	text-align: center;
+}
+.goods img {
+	height: auto;
+	width: 100%;
+}
+.ways {
+	position: relative;
+	height: 250px;
+	width: 100%;
+	overflow: hidden;
+}
+.ways_wrap {
+	position: absolute;
+	height: 100%;
+	width: 400%;
+	left: 0;
+	transition: 1s;
+}
+.singel_way {
+	height: 100%;
+	width: 25%;
+	float: left;
+}
+.singel_way div {
+	height: 100%;
+	width: 350px;
+	float: left;
+	text-align: center;
+}
+.singel_way div img {
+	transition: 0.3s;
+}
+.singel_way div img:hover {
+	box-shadow: 7px 7px 13px rgba(0, 0, 0, .5);
+}
+.singel_way div p {
+	color: #2c2c2c;
+	font-size: 20px;
+	line-height: 50px;
+}
+.singel_way div img {
+	height: 200px;
+	width: 100%;
+}
+.left_way {
+	margin-left: 46.5px;
+}
+.switch {
+	position: absolute;
+	height: 70px;
+	width: 70px;
+	top: 65px;
+	cursor: pointer;
+	background-color: rgba(130, 134, 159, 0.6);
+	border-radius: 50%;
+	z-index: 999;
+}
+.switch img {
+	height: 28px;
+	width: 18px;
+	margin: 21px 26px;
+}
+#way_pre {
+	left: 15px;
+}
+#way_next {
+	right: 15px;
+}
+.cases {
+	height: 185px;
+	width: 100%;
+}
+.case {
+	height: 100%;
+	width: 264px;
+	float: left;
+}
+.case_right {
+	margin-left: 27px;
+}
