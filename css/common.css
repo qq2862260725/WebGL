@@ -97,23 +97,24 @@ header {
 .nav_link ul li:hover .nav_desc {
 	height: 564px;
 }
-.singel_nav_wrap {
-	height: auto;
+.unique_x {
 	width: 1150px;
 	margin: 0 auto;
+}
+.singel_nav_wrap {
+	height: 100%;
+	width: auto;
 	zoom: 1;
 	padding: 10px 35px;
 	overflow: hidden;
-}
-.nav_unique {
-	margin-left: 0 !important;
+	margin-left: -136px;
 }
 .singel_nav_item {
 	height: 262px;
 	width: auto;
 	float: left;
-	margin-left: 140px;
-	margin-bottom: 10px;
+	margin-left: 136px;
+	margin-bottom: 20px;
 }
 .singel_nav_item h4 {
 	color: #222222;
@@ -146,7 +147,7 @@ header {
 }
 .company_wrap {
 	height: auto;
-	width: 1145px;
+	width: 1146px;
 	margin: 0 auto;
 }
 .min_title {
@@ -191,15 +192,14 @@ footer {
 	zoom: 1;
 	overflow: hidden;
 	float: left;
+	margin-left: -60px;
 }
 .service {
 	height: auto;
 	width: 90px;
 	float: left;
-	text-align: center;
-}
-.server_right {
 	margin-left: 60px;
+	text-align: center;
 }
 .service h5 {
 	color: #ffffff;
@@ -226,19 +226,15 @@ footer {
 }
 .contact {
 	height: auto;
-	width: 230px;
-	float: left;
-}
-.contact {
-	height: auto;
 	width: 250px;
 	float: left;
 	color: #adadad;
 	font-size: 18px;
 	line-height: 30px;
 	margin-left: 120px;
+	margin-top: -20px;
 }
-.contact2 {
+.contact p {
 	margin-top: 20px;
 }
 .weixin {
