@@ -4,10 +4,10 @@ var package = require("./package.json");
  * 全局变量
  */
 fis
-  .set('project.files', [ // 处理的文件类型
+  .set('project.files', [ // 处理文件类型
     '**.{css,less,html,php,js,png,jpg,gif,ico,eot,svg,ttf,woff,otf}'
   ])
-  .set('project.ignore', [ // 忽略的文件
+  .set('project.ignore', [ // 忽略文件
     'package.json',
     'node_modules/**',
 

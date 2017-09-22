@@ -1,6 +1,6 @@
 {
-  "name": "lijt",
-  "description": "lijt",
+  "name": "WebGL",
+  "description": "WebGL",
   "dependencies": {
     "jquery": "^3.1.1",
     "vue": "^1.0.27",
