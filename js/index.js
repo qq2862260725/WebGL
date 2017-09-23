@@ -1,24 +1,26 @@
+//创建场景
 var scene = new THREE.Scene();
-var camera = new THREE.PerspectiveCamera( 75, window.innerWidth/window.innerHeight, 0.1, 1000 );
-
+//定义摄影机  属性分别是：视野、浏览器宽高比、近剪裁面，远剪裁面
+var camera = new THREE.PerspectiveCamera(50,window.innerWidth/window.innerHeight,0.1,1000);
+//创建渲染器
 var renderer = new THREE.WebGLRenderer();
-renderer.setSize( window.innerWidth, window.innerHeight );
-document.body.appendChild( renderer.domElement );
+//在窗口渲染场景
+renderer.setSize(window.innerWidth*0.8,window.innerHeight*0.8);
+//把场景添加到浏览器中
+document.body.appendChild(renderer.domElement);
 
+//创建一个几何体
 var geometry = new THREE.BoxGeometry( 1, 1, 1 );
-var material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
+var material = new THREE.MeshBasicMaterial( { color: 0x2d7092 } );
 var cube = new THREE.Mesh( geometry, material );
 scene.add( cube );
 
 camera.position.z = 5;
 
-var animate = function () {
-	requestAnimationFrame( animate );
-
+function animate(){
+	requestAnimationFrame(animate);
 	cube.rotation.x += 0.1;
 	cube.rotation.y += 0.1;
-
-	renderer.render(scene, camera);
-};
-
+	renderer.render( scene, camera );
+}
 animate();
