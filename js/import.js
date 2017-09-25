@@ -23,4 +23,10 @@ function animate(){
 	cube.rotation.y += 0.1;
 	renderer.render( scene, camera );
 }
-animate();
+if (Detector.webgl) {
+    // Initiate function or other initializations here
+    animate();
+} else {
+    var warning = Detector.getWebGLErrorMessage();
+    document.getElementById('container').appendChild(warning);
+}
